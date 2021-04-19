@@ -79,7 +79,7 @@ public class MongoImpl implements Mongodb {
 
             if (document.containsKey("price")) {
                 double price = document.getDouble("price");
-                duty = new Duty(name, priority, done, date);
+                duty = new Duty(name, priority, done, date, price);
             } else {
                 duty = new Duty(name, priority, done, date);
 
