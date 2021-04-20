@@ -17,7 +17,7 @@ public interface Mongodb {
 
     public void setDutyToDone(int id);
 
-    public List<Duty> getAllDuties();
+    public List<Duty> getAllDuties(int i);
 
     public List<Duty> getAllDuties(boolean done);
 
